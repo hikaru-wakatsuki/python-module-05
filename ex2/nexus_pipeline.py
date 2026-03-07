@@ -252,7 +252,7 @@ def main() -> None:
     print("Pipeline A -> Pipeline B -> Pipeline C")
     print("Data flow: Raw -> Processed -> Analyzed -> Stored")
     print()
-    manager.chan_demo(100)
+    manager.chain_demo(100)
     print()
     print("=== Error Recovery Test ===")
     print("Simulating pipeline failure...")
