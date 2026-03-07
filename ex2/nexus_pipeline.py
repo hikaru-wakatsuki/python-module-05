@@ -180,7 +180,7 @@ class NexusManager:
             if self.capacity <= 0:
                 return
 
-    def chan_demo(self, records: int) -> None:
+    def chain_demo(self, records: int) -> None:
         try:
             if self.capacity <= 0:
                 raise ValueError(
